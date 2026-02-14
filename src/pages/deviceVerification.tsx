@@ -41,35 +41,7 @@ const DeviceVerification = () => {
 
   return (
     <div className="min-h-screen bg-background flex flex-col items-center justify-center p-4">
-      <div className="flex gap-4 mb-6">
-        <Button
-          onClick={() =>
-            window.open(
-              `https://t.me/Luxuriousdevilott?text=${encodeURIComponent(
-                `Hi I am interested to buy in bulk`
-              )}`,
-              "_blank"
-            )
-          }
-          className="bg-blue-500 hover:bg-blue-600 text-white"
-        >
-          Buy on Telegram
-        </Button>
-        <Button
-          onClick={() =>
-            window.open(
-              `https://wa.me/9890938795?text=${encodeURIComponent(
-                `Hi I am interested to buy in bulk`
-              )}`,
-              "_blank"
-            )
-          }
-          className="bg-green-500 hover:bg-green-600 text-white"
-        >
-          Buy on WhatsApp
-        </Button>
-      </div>
-
+    
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <div className="flex justify-center mb-4">
